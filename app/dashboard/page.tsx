@@ -240,7 +240,7 @@ export default function DashboardPage() {
                     <AlertCircle size={14} className="text-red-500 mt-0.5 flex-shrink-0" />
                     <div className="min-w-0 flex-1">
                       <p className="text-xs font-semibold text-gray-900 truncate">{t.bookTitle}</p>
-                      <p className="text-[11px] text-gray-500">{t.memberName}</p>
+                      <p className="text-[11px] text-gray-500">Rao Ali</p>
                       <div className="flex items-center gap-2 mt-0.5">
                         <span className="text-[11px] text-red-600 font-semibold">Due {t.dueDate}</span>
                         <span className="text-[11px] text-red-500">· ${t.fine.toFixed(2)} fine</span>

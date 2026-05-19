@@ -115,7 +115,7 @@ export default function Sidebar({ mobileOpen, onClose, overdueCount = 0 }: Sideb
               JS
             </div>
             <div className="min-w-0">
-              <p className="text-sm font-semibold text-white leading-tight truncate">John Smith</p>
+              <p className="text-sm font-semibold text-white leading-tight truncate">Rao Ali</p>
               <p className="text-[10px] text-[#F0A500] font-medium">Administrator</p>
             </div>
           </div>
