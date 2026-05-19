@@ -258,7 +258,7 @@ export const MOCK_MEMBERS: Member[] = [
   },
   {
     id: "m8",
-    name: "Henry Wilson",
+    name: "Rao Ali",
     email: "henry.wilson@email.com",
     phone: "+1-555-0108",
     address: "258 Spruce Way, Peoria, IL 61602",
