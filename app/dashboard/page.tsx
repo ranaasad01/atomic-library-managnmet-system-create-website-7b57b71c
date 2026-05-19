@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import AppShell from "@/components/AppShell";
@@ -81,7 +82,7 @@ export default function DashboardPage() {
               <Calendar size={13} />
               {new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}
             </p>
-            <h2 className="text-2xl font-bold">Welcome back, John! 👋</h2>
+            <h2 className="text-2xl font-bold">Welcome back, Ali! 👋</h2>
             <p className="text-white/60 mt-1 text-sm">
               Your library has{" "}
               <span className="text-[#F0A500] font-semibold">{overdueBooks} overdue book{overdueBooks !== 1 ? "s" : ""}</span>
