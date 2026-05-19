@@ -147,10 +147,10 @@ export default function Header({ title, onMenuClick }: HeaderProps) {
         {/* Avatar */}
         <div className="flex items-center gap-2 pl-1">
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#1E3A5F] to-[#2d5a8e] flex items-center justify-center text-white text-xs font-bold shadow-sm">
-            RA
+            MA
           </div>
           <div className="hidden sm:block">
-            <p className="text-xs font-semibold text-gray-800 leading-tight">Rao Ali</p>
+            <p className="text-xs font-semibold text-gray-800 leading-tight">Muhammad Ali</p>
             <p className="text-[10px] text-gray-400">Admin</p>
           </div>
         </div>
